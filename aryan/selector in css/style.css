@@ -1,0 +1,45 @@
+/* universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* element selctor */
+
+
+div {
+    background-color: red;
+
+}
+
+/* class selector */
+.red {
+    color: yellow;
+}
+
+
+/* id selector */
+#name {
+    color: blue;
+}
+
+/* element class selector */
+div .heading{
+    color: aqua;
+}
+
+/* element id selector{} */
+div #name{
+    background-color: violet;
+}
+
+/* group selector */
+.form , .red{
+    background-color: purple;
+}
+
+/* parent child selctor */
+header  main{
+    border: 2px solid orange;
+}
